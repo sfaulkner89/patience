@@ -1,13 +1,53 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bagel {
+  position: fixed;
+  height: 5vw;
+  z-index: -2;
+}
+
+.subHolder {
+  z-index: 3;
+  text-align: center;
+  background-color: maroon;
+  padding: 5%;
+  margin: auto 0;
+  border-radius: 2vh;
+  width: 40vw;
+  margin-top: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.bagelButton {
+  width: 5vw;
+  aspect-ratio: 1;
+  margin: 2vh;
+  border-radius: 100%;
+}
+
+.bagelInput {
+  width: 20vw;
+}
+
+.bagelicon {
+  height: 4vh;
 }
